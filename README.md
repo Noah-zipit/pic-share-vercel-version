@@ -1,1 +1,1 @@
-# pic-share-vercel-version
+# Anonymous Image Sharing App 
