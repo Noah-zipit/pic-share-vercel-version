@@ -4,7 +4,7 @@ const API_URL = '/api';
 // Create API object with all methods
 const api = {
   // Auth endpoints
-  registerUser: async (userData) => {
+  register: async (userData) => {
     const response = await fetch(`${API_URL}/auth/register`, {
       method: 'POST',
       headers: {
@@ -16,7 +16,7 @@ const api = {
     return await response.json();
   },
 
-  loginUser: async (credentials) => {
+  login: async (credentials) => {
     const response = await fetch(`${API_URL}/auth/login`, {
       method: 'POST',
       headers: {
